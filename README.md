@@ -1,2 +1,2 @@
 # xmiinaa.github.io
-A website about me, Amina
+A website about me, by me
