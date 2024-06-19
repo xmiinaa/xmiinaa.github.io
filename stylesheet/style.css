@@ -6,25 +6,23 @@ body {
     font-family: 'Poppins' ;
     
 }
-.wrapper{
-    width: 50%;
-    margin: 1;
-}
+
 header {
     width: 100%;
     height: 80px;
-    margin: 0;
-    padding: 0;
+    padding-top: 0%;
+    padding-left: 0%;
     border: 0;
     background:#ff505d;
     position: fixed;
 
 }
 .logo{
-    width: 30%;
+    width: 50%;
     float: left;
     text-align: left;
     line-height: 80px;
+    padding-left: 40px;
 }
 
 .logo a{
