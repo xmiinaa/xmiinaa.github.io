@@ -62,3 +62,15 @@ nav a:hover{
     font-weight: 600;
     width: auto;
 }
+
+.content{
+    text-align: justify;
+    padding: 6%;
+
+}
+
+.content h1{
+    text-align: center;
+    color: #ff505d;
+    
+}
