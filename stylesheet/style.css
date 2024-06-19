@@ -1,24 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body {
     background-color: #FAC7BE;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Poppins' ;
     
 }
-
-div#banner { 
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    background-color: #ff505d; 
+.wrapper{
+    width: 50%;
+    margin: 1;
+}
+header {
     width: 100%;
-    height: 5%;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background:#ff505d;
+    position: fixed;
+
+}
+.logo{
+    width: 30%;
+    float: left;
+    text-align: left;
+    line-height: 80px;
 }
 
-div#banner-content { 
-    width: 800px; 
-    margin: 0 auto; 
-    padding: 10px; 
-    border: 1px solid #000;
-  }
-  div#main { 
-    padding-top: 1%;
-  }
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Pacifico';
+    color: azure;
+    letter-spacing: 1px;
+}
+
+nav{
+    float: right;
+    line-height: 80px;
+    border: 10px;
+    
+}
+nav a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: azure;
+    padding: 36px 30px;
+    margin: 0 1px;
+
+}
+
+nav a:hover{
+    background: azure;
+    color: #ff505d;
+    font-weight: 600;
+
+}
