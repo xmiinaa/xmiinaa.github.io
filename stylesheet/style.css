@@ -81,16 +81,18 @@ img {
     border-radius: 10px;
 }
 .container {
-    width: 100%;
-    display:block;
+    width: 300px;
+    height: 300px;
+    position: relative;
 }
 
 .overlay {
     position: absolute;
+    border-radius: 10px;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color:#ff505c5d;
+    background-color:#ffffff67;
     overflow: hidden;
     width: 100%;
     height: 0;
@@ -98,11 +100,11 @@ img {
 }
 .container:hover .overlay {
     height: 100%;
-    opacity: 0.7;
+    opacity: 1;
   }
 
 .overlay-text {
-    color: white;
+    color:black;
     font-size: 20px;
     position: absolute;
     overflow: hidden;
@@ -111,6 +113,12 @@ img {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
   }
+
+<!--
+cake1 {
+    object-position: 100px 100px;
+}
+-->
 
 .icon {
     padding: 20px;
