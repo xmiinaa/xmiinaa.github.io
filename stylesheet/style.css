@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #FAC7BE;
+    background-color:#FAC7BE;
     font-family: 'Poppins' ;
     
 }
@@ -70,7 +70,9 @@ nav a:hover{
 }
 
 .content h1{
-    text-align: center;
+    width:fit-content;
     color: #ff505d;
+    background-color:azure;
+    padding: 20px;
     
 }
