@@ -79,14 +79,14 @@ nav a:hover{
 
 img {
     border-radius: 10px;
-    display: block;
 }
-.container {
+.cake_images {
     position: relative;
     width: 50%;
 }
+
 .overlay {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
@@ -96,6 +96,9 @@ img {
     height: 0;
     transition: .5s ease;
 }
+.cake-images:hover .overlay {
+    height: 100%;
+  }
 .overlay-text {
     white-space: nowrap; 
     color: white;
@@ -106,7 +109,4 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-  }
-.cake-images:hover .overlay {
-    height: 100%;
   }
