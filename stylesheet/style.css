@@ -39,13 +39,13 @@ header {
     color: azure;
 }
 
-nav{
-    float: right;
+.pages{
+    float: centre;
     line-height: 80px;
     border: 10px;
     
 }
-nav a{
+.pages a{
     text-decoration: none;
     font-family: 'Poppins';
     letter-spacing: 4px;
@@ -56,16 +56,32 @@ nav a{
 
 }
 
-nav a:hover{
+.pages a:hover{
     background: azure;
     color: #ff505d;
     font-weight: 600;
     width: auto;
 }
+.icon {
+    float: left;
+    line-height: 80px;
+    border: 10px;
+    padding: 10px;
+    line-height: 80px;
+    text-decoration: none;
+    margin: 0px 0px;
+    width: fit-content;
+    object-position: 100px 100px;
+
+}
+.icon:hover {
+    opacity: 0.7 ;
+}
 
 .content{
     text-align: justify;
     padding: 6%;
+    object-position: center;
 
 }
 
@@ -84,6 +100,7 @@ img {
     width: 300px;
     height: 300px;
     position: relative;
+    padding: 0px;
 }
 
 .overlay {
@@ -107,6 +124,7 @@ img {
     color:black;
     font-size: 20px;
     position: absolute;
+    text-align: center;
     overflow: hidden;
     top: 50%;
     left: 50%;
@@ -114,22 +132,11 @@ img {
     -ms-transform: translate(-50%, -50%);
   }
 
-<!--
-cake1 {
-    object-position: 100px 100px;
+#cake1 {
+    object-position: 0px;
 }
--->
 
-.icon {
-    padding: 20px;
-    text-decoration: none;
-    margin: 5px 2px;
-    width: fit-content;
 
-}
-.icon:hover {
-    opacity: 0.7 ;
-}
 
 #linkedin {
     left: 100px;
