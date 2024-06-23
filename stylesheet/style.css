@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color:#FAC7BE;
+    background-color:#ffcbce;
     font-family: 'Poppins' ;
     
 }
@@ -103,21 +103,21 @@ header {
 
 .content{
     text-align: justify;
-    padding: 6%;
+    padding-top: 50px   ;
+    padding-left: 6%;
+    padding-right: 6%;
     object-position: center;
 
 }
 
-.content h1{
-    width:fit-content;
-    color: #ff505d;
-    background-color:azure;
+h1{
+    text-align: center;
+    color: #e64854;
     padding: 20px;
-    
 }
 
 img {
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .container {
     width: 300px;
@@ -128,7 +128,7 @@ img {
 
 .overlay {
     position: absolute;
-    border-radius: 10px;
+    border-radius: 20px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -136,7 +136,7 @@ img {
     overflow: hidden;
     width: 100%;
     height: 0;
-    transition: .5s ease;
+    transition: 1s ease;
 }
 .container:hover .overlay {
     height: 100%;
@@ -144,7 +144,8 @@ img {
   }
 
 .overlay-text {
-    color:black;
+    color:#6d161f;
+    font-weight: 600;
     font-size: 20px;
     position: absolute;
     text-align: center;
@@ -156,6 +157,34 @@ img {
   }
 
 #cake1 {
-    object-position: 0px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+#cake2 {
+    position: relative;
+    left: 500px;
+    top: 50px;
+}
+#cake3 {
+    position: relative;
+    left: 800px;
+    top: 50px;
+}
+#cake4 {
+    position: relative;
+    left: 100px;
+    top: 300px;
+}
+#cake5 {
+    position: relative;
+    left: 300px;
+    top: 300px;
+}
+#cake6 {
+    position: absolute;
+    left: 500px;
+    top: 300px;
 }
 
